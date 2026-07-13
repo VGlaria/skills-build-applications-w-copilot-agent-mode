@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './index.css';
 import App from './App.tsx';
-import Users from './components/Users.tsx';
-import Teams from './components/Teams.tsx';
-import Activities from './components/Activities.tsx';
-import Leaderboard from './components/Leaderboard.tsx';
-import Workouts from './components/Workouts.tsx';
+import Users from './components/Users.jsx';
+import Teams from './components/Teams.jsx';
+import Activities from './components/Activities.jsx';
+import Leaderboard from './components/Leaderboard.jsx';
+import Workouts from './components/Workouts.jsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
